@@ -174,7 +174,7 @@ def detect(opt):
             if show_vid:
                 cv2.imshow(p, im0)
                 if cv2.waitKey(1) == ord('q'):  # q to quit
-                    raise StopIteration
+                    exit()
 
             # Save results (image with detections)
             if save_vid:
