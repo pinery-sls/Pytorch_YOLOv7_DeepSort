@@ -1,5 +1,5 @@
-# Pytorch_YOLOv5_Deepsort
- YOLOv5 and Deepsort
+# Pytorch_YOLOv7_Deepsort
+ YOLOv7 and Deepsort
 
 
 
