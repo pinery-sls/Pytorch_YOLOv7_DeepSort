@@ -165,7 +165,7 @@ def detect(opt):
                                                            bbox_left, bbox_w, bbox_h, -1, -1, -1, -1))  # label format
 
             else:
-                deepsort.increment_ages()
+                break
 
             # Print time (inference + NMS)
             print('%sDone. (%.3fs)' % (s, t2 - t1))
